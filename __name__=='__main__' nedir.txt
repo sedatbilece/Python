@@ -1,0 +1,5 @@
+__name__=='__main__' dosya direkmi çalışmış diye kontrolde bulunur
+
+dosyanın direkt olarak kendisi çalıştırılmış ise name '__main__' stringini alır
+
+eger dosya başka bir dosya tarafından çağrılmış ise 'dosyanın_adı' stringini alır
