@@ -21,7 +21,7 @@ res=requests.get(url)
 res=json.loads(res.text)
 print("1 euro : "+str(res["rates"]["TRY"] )+" tl")
 
-url="https://metals-api.com/api/latest?access_key=a3i39z54h6lia8crziu2itj1e9p20sdt2985fkg43n2yae0yej8o32zmql3t&base=XAU&symbols=USD"
+url="https://metals-api.com/api/latest?access_key=a3i39z54h6lia8crziu2itj1e9p20sdt2985fkg43n2yae0yej8o32zmql3t&base=XAU&symbols=USD"# bunu kendi keyiniz ile değiştirmeniz gerekli
 
 
 res=requests.get(url)
